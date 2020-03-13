@@ -1,0 +1,24 @@
+OOT modules gnuradio:
+
+Here's a quick list for all the steps necessary to build blocks and out-of-tree modules:
+
+    1. Create (do this once per module): gr_modtool create/newmod MODULENAME
+    2. Add a block to the module: gr_modtool add BLOCKNAME
+    -- Edit c++/python signal processing files & qa python files
+    3. Create a build directory: mkdir build/
+    4.Invoke the make process: cd build && cmake <OPTIONS> ../ && make (Note that you only have to call cmake if you've changed the CMake files)
+    5. Invoke the testing: make test or ctest or ctest -V for more verbosity
+    -- Edit xml/yml with parameters
+    6. Install (only when everything works and no tests fail): sudo make install
+    7. Ubuntu users: reload the libs: sudo ldconfig
+
+
+    *Delete blocks from the source tree: gr_modtool rm REGEX
+    *Disable blocks by removing them from the CMake files: gr_modtool disable REGEX
+
+gr_modtool help <<function>>
+
+
+Flowgraph examples:  /usr/share/gnuradio/examples
+C++ blocks: /usr/include/gnuradio
+Python Blocks: /usr/lib/python2.7/dist-packages/gnuradio

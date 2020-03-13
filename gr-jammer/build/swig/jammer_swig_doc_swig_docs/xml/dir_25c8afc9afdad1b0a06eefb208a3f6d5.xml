@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_25c8afc9afdad1b0a06eefb208a3f6d5" kind="dir">
+    <compoundname>jammer</compoundname>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="jammer__sg__f_8h">jammer_sg_f.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/ulisesfco/tesis/gr-jammer/include/jammer/"/>
+  </compounddef>
+</doxygen>

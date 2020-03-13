@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ulisesfco/tesis/gr-jammer/lib/qa_jammer.cc
+qa_jammer.h
+/home/ulisesfco/tesis/gr-jammer/lib/qa_jammer.h
+
+/home/ulisesfco/tesis/gr-jammer/lib/qa_jammer.h
+gnuradio/attributes.h
+-
+cppunit/TestSuite.h
+-
+
+/home/ulisesfco/tesis/gr-jammer/lib/test_jammer.cc
+config.h
+/home/ulisesfco/tesis/gr-jammer/lib/config.h
+cppunit/TextTestRunner.h
+-
+cppunit/XmlOutputter.h
+-
+gnuradio/unittests.h
+-
+qa_jammer.h
+/home/ulisesfco/tesis/gr-jammer/lib/qa_jammer.h
+iostream
+-
+fstream
+-
+

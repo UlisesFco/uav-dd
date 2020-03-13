@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.13">
+  <compound refid="classgr_1_1jammer_1_1jammer__sg__f" kind="class"><name>gr::jammer::jammer_sg_f</name>
+    <member refid="classgr_1_1jammer_1_1jammer__sg__f_1a45b343be779f8ad058a84974424dd882" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1jammer_1_1jammer__sg__f_1afe921978c2291d0b3c20d5461d5a5242" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1jammer_1_1jammer__sg__f_1a61960a04dcbd9cdb67b58daccd88ba37" kind="function"><name>sampling_freq</name></member>
+    <member refid="classgr_1_1jammer_1_1jammer__sg__f_1a998bf855b0aaa9ea1f2cd4ccc7dae4a3" kind="function"><name>frequency</name></member>
+    <member refid="classgr_1_1jammer_1_1jammer__sg__f_1a1c9333de2d707a01e7013fa1b11e96de" kind="function"><name>amplitude</name></member>
+    <member refid="classgr_1_1jammer_1_1jammer__sg__f_1a1eeffe5a8f75fbbeb621e974cf683b0a" kind="function"><name>phase</name></member>
+    <member refid="classgr_1_1jammer_1_1jammer__sg__f_1a3f8953f06302b71590be3501f5c1cb90" kind="function"><name>set_sampling_freq</name></member>
+    <member refid="classgr_1_1jammer_1_1jammer__sg__f_1a8996ea4ac2f743bd230d49855c83f329" kind="function"><name>set_frequency</name></member>
+    <member refid="classgr_1_1jammer_1_1jammer__sg__f_1a3c85100a7db5e09bd32c22f4c76b7eb9" kind="function"><name>set_amplitude</name></member>
+    <member refid="classgr_1_1jammer_1_1jammer__sg__f_1a225b84b08f0395876f5ef7438b33a1f1" kind="function"><name>set_phase</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1jammer" kind="namespace"><name>gr::jammer</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1a3445ece544fde6f422793ee829afac71" kind="define"><name>JAMMER_API</name></member>
+  </compound>
+  <compound refid="jammer__sg__f_8h" kind="file"><name>jammer_sg_f.h</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_25c8afc9afdad1b0a06eefb208a3f6d5" kind="dir"><name>jammer</name>
+  </compound>
+</doxygenindex>

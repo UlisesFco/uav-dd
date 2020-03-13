@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<block>
+  <name>jammer_sg_f</name>
+  <key>jammer_jammer_sg_f</key>
+  <category>[jammer]</category>
+  <import>import jammer</import>
+  <make>jammer.jammer_sg_f($sample_freq, $freq, $ampl, $phase)</make>
+  <!-- Block parameters -->
+  <param>
+    <name>sampling_frequency</name>
+    <key>sample_freq</key>
+    <type>float</type>
+  </param>
+
+  <param>
+    <name>frequency</name>
+    <key>freq</key>
+    <type>float</type>
+  </param>
+
+  <param>
+    <name>amplitude</name>
+    <key>ampl</key>
+    <type>float</type>
+  </param>
+
+  <param>
+    <name>phase</name>
+    <key>phase</key>
+    <type>float</type>
+  </param>
+
+<!--Source -->
+  <source>
+    <name>out</name>
+    <type>float</type>
+  </source>
+</block>

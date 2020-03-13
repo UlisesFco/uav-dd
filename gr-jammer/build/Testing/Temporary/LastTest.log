@@ -1,0 +1,40 @@
+Start testing: Feb 20 14:11 CST
+----------------------------------------------------------
+1/2 Testing: test_jammer
+1/2 Test: test_jammer
+Command: "/bin/sh" "/home/ulisesfco/tesis/gr-jammer/build/lib/test_jammer_test.sh"
+Directory: /home/ulisesfco/tesis/gr-jammer/build/lib
+"test_jammer" start time: Feb 20 14:11 CST
+Output:
+----------------------------------------------------------
+
+
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_jammer" end time: Feb 20 14:11 CST
+"test_jammer" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: qa_jammer_sg_f
+2/2 Test: qa_jammer_sg_f
+Command: "/bin/sh" "/home/ulisesfco/tesis/gr-jammer/build/python/qa_jammer_sg_f_test.sh"
+Directory: /home/ulisesfco/tesis/gr-jammer/build/python
+"qa_jammer_sg_f" start time: Feb 20 14:11 CST
+Output:
+----------------------------------------------------------
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+<end of output>
+Test time =   0.34 sec
+----------------------------------------------------------
+Test Passed.
+"qa_jammer_sg_f" end time: Feb 20 14:11 CST
+"qa_jammer_sg_f" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Feb 20 14:11 CST

@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/jammer/api.h
+gnuradio/attributes.h
+-
+
+../include/jammer/jammer_sg_f.h
+jammer/api.h
+-
+gnuradio/sync_block.h
+-
+
+/home/ulisesfco/tesis/gr-jammer/lib/jammer_sg_f_impl.cc
+config.h
+/home/ulisesfco/tesis/gr-jammer/lib/config.h
+gnuradio/io_signature.h
+-
+jammer_sg_f_impl.h
+/home/ulisesfco/tesis/gr-jammer/lib/jammer_sg_f_impl.h
+gnuradio/math.h
+-
+algorithm
+-
+stdexcept
+-
+
+/home/ulisesfco/tesis/gr-jammer/lib/jammer_sg_f_impl.h
+jammer/jammer_sg_f.h
+-
+gnuradio/fxpt_nco.h
+-
+gnuradio/sync_block.h
+-
+
