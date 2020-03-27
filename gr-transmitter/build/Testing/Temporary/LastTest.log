@@ -1,0 +1,40 @@
+Start testing: Mar 26 18:31 CST
+----------------------------------------------------------
+1/2 Testing: test_transmitter
+1/2 Test: test_transmitter
+Command: "/bin/sh" "/home/ulisesfco/tesis/uav-dd/gr-transmitter/build/lib/test_transmitter_test.sh"
+Directory: /home/ulisesfco/tesis/uav-dd/gr-transmitter/build/lib
+"test_transmitter" start time: Mar 26 18:31 CST
+Output:
+----------------------------------------------------------
+
+
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_transmitter" end time: Mar 26 18:31 CST
+"test_transmitter" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: qa_jammer_imp_f
+2/2 Test: qa_jammer_imp_f
+Command: "/bin/sh" "/home/ulisesfco/tesis/uav-dd/gr-transmitter/build/python/qa_jammer_imp_f_test.sh"
+Directory: /home/ulisesfco/tesis/uav-dd/gr-transmitter/build/python
+"qa_jammer_imp_f" start time: Mar 26 18:31 CST
+Output:
+----------------------------------------------------------
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+OK
+<end of output>
+Test time =   0.35 sec
+----------------------------------------------------------
+Test Passed.
+"qa_jammer_imp_f" end time: Mar 26 18:31 CST
+"qa_jammer_imp_f" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 26 18:31 CST

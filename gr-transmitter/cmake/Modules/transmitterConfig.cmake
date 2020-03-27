@@ -1,0 +1,30 @@
+INCLUDE(FindPkgConfig)
+PKG_CHECK_MODULES(PC_TRANSMITTER transmitter)
+
+FIND_PATH(
+    TRANSMITTER_INCLUDE_DIRS
+    NAMES transmitter/api.h
+    HINTS $ENV{TRANSMITTER_DIR}/include
+        ${PC_TRANSMITTER_INCLUDEDIR}
+    PATHS ${CMAKE_INSTALL_PREFIX}/include
+          /usr/local/include
+          /usr/include
+)
+
+FIND_LIBRARY(
+    TRANSMITTER_LIBRARIES
+    NAMES gnuradio-transmitter
+    HINTS $ENV{TRANSMITTER_DIR}/lib
+        ${PC_TRANSMITTER_LIBDIR}
+    PATHS ${CMAKE_INSTALL_PREFIX}/lib
+          ${CMAKE_INSTALL_PREFIX}/lib64
+          /usr/local/lib
+          /usr/local/lib64
+          /usr/lib
+          /usr/lib64
+)
+
+INCLUDE(FindPackageHandleStandardArgs)
+FIND_PACKAGE_HANDLE_STANDARD_ARGS(TRANSMITTER DEFAULT_MSG TRANSMITTER_LIBRARIES TRANSMITTER_INCLUDE_DIRS)
+MARK_AS_ADVANCED(TRANSMITTER_LIBRARIES TRANSMITTER_INCLUDE_DIRS)
+

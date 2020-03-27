@@ -1,0 +1,380 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1transmitter_1_1jammer__imp__f__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::transmitter::jammer_imp_f_impl</compoundname>
+    <basecompoundref refid="classgr_1_1transmitter_1_1jammer__imp__f" prot="public" virt="non-virtual">gr::transmitter::jammer_imp_f</basecompoundref>
+    <includes refid="jammer__imp__f__impl_8h" local="no">jammer_imp_f_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1transmitter_1_1jammer__imp__f__impl_1ac5e1bfcf6547c7e8a4b05b7c40b55a22" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::transmitter::jammer_imp_f_impl::d_sample_freq</definition>
+        <argsstring></argsstring>
+        <name>d_sample_freq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ulisesfco/tesis/uav-dd/gr-transmitter/lib/jammer_imp_f_impl.h" line="35" column="1" bodyfile="/home/ulisesfco/tesis/uav-dd/gr-transmitter/lib/jammer_imp_f_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a5723534a405d5bff61eae6a4e5c025fd" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::transmitter::jammer_imp_f_impl::d_frequency</definition>
+        <argsstring></argsstring>
+        <name>d_frequency</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ulisesfco/tesis/uav-dd/gr-transmitter/lib/jammer_imp_f_impl.h" line="36" column="1" bodyfile="/home/ulisesfco/tesis/uav-dd/gr-transmitter/lib/jammer_imp_f_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a117afadf0c32f2e0b7d4c8f368415ea9" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::transmitter::jammer_imp_f_impl::d_ampl</definition>
+        <argsstring></argsstring>
+        <name>d_ampl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ulisesfco/tesis/uav-dd/gr-transmitter/lib/jammer_imp_f_impl.h" line="37" column="1" bodyfile="/home/ulisesfco/tesis/uav-dd/gr-transmitter/lib/jammer_imp_f_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1transmitter_1_1jammer__imp__f__impl_1ab9961e882a2ac744e3892739a63a28da" prot="private" static="no" mutable="no">
+        <type>gr::fxpt_nco</type>
+        <definition>gr::fxpt_nco gr::transmitter::jammer_imp_f_impl::d_nco</definition>
+        <argsstring></argsstring>
+        <name>d_nco</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ulisesfco/tesis/uav-dd/gr-transmitter/lib/jammer_imp_f_impl.h" line="38" column="1" bodyfile="/home/ulisesfco/tesis/uav-dd/gr-transmitter/lib/jammer_imp_f_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a50188d008f2074d0926f0284709e6d36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::transmitter::jammer_imp_f_impl::jammer_imp_f_impl</definition>
+        <argsstring>(double sample_freq, double freq, double ampl, float phase=0)</argsstring>
+        <name>jammer_imp_f_impl</name>
+        <param>
+          <type>double</type>
+          <declname>sample_freq</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>freq</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ampl</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>phase</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ulisesfco/tesis/uav-dd/gr-transmitter/lib/jammer_imp_f_impl.h" line="42" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a9bec3933f76ca7dd2381e54f5f20dd5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::transmitter::jammer_imp_f_impl::~jammer_imp_f_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~jammer_imp_f_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ulisesfco/tesis/uav-dd/gr-transmitter/lib/jammer_imp_f_impl.h" line="46" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a03b959c78e3d50dccc70400b4a1c53a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::transmitter::jammer_imp_f_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ulisesfco/tesis/uav-dd/gr-transmitter/lib/jammer_imp_f_impl.h" line="49" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1transmitter_1_1jammer__imp__f__impl_1ada3e00c5069dccb5a72bd92f97219f46" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>double</type>
+        <definition>double gr::transmitter::jammer_imp_f_impl::sampling_freq</definition>
+        <argsstring>() const</argsstring>
+        <name>sampling_freq</name>
+        <reimplements refid="classgr_1_1transmitter_1_1jammer__imp__f_1ab2f824812349809ccf6fe1f9fba02925">sampling_freq</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the sampling frequency of the signal. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sampling_freq</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>sampling frequency </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ulisesfco/tesis/uav-dd/gr-transmitter/lib/jammer_imp_f_impl.h" line="54" column="1" bodyfile="/home/ulisesfco/tesis/uav-dd/gr-transmitter/lib/jammer_imp_f_impl.h" bodystart="54" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a92cf9af4504f81e4191f828bbbb80743" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>double</type>
+        <definition>double gr::transmitter::jammer_imp_f_impl::frequency</definition>
+        <argsstring>() const</argsstring>
+        <name>frequency</name>
+        <reimplements refid="classgr_1_1transmitter_1_1jammer__imp__f_1ac78aaf59c36d0bdf89224153a1344806">frequency</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the frequency of the cosine signal. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>frequency</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>frequency of the signal </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ulisesfco/tesis/uav-dd/gr-transmitter/lib/jammer_imp_f_impl.h" line="55" column="1" bodyfile="/home/ulisesfco/tesis/uav-dd/gr-transmitter/lib/jammer_imp_f_impl.h" bodystart="55" bodyend="55"/>
+        <referencedby refid="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a52e945fd267800e6e460cc59b5cf087a" compoundref="jammer__imp__f__impl_8h" startline="57" endline="57">phase</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a8d71ceb3b23ab4c48d9530061f34d81e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>double</type>
+        <definition>double gr::transmitter::jammer_imp_f_impl::amplitude</definition>
+        <argsstring>() const</argsstring>
+        <name>amplitude</name>
+        <reimplements refid="classgr_1_1transmitter_1_1jammer__imp__f_1aaa9b0068a4b4b511c309fe4b66d4bd61">amplitude</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the amplitude of the signal. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>frequency</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>frequency of the signal </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ulisesfco/tesis/uav-dd/gr-transmitter/lib/jammer_imp_f_impl.h" line="56" column="1" bodyfile="/home/ulisesfco/tesis/uav-dd/gr-transmitter/lib/jammer_imp_f_impl.h" bodystart="56" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a52e945fd267800e6e460cc59b5cf087a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>float</type>
+        <definition>float gr::transmitter::jammer_imp_f_impl::phase</definition>
+        <argsstring>() const</argsstring>
+        <name>phase</name>
+        <reimplements refid="classgr_1_1transmitter_1_1jammer__imp__f_1adce56b79bd2ae661d3242041944d9b67">phase</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the phase of the signal. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>frequency</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>frequency of the signal </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ulisesfco/tesis/uav-dd/gr-transmitter/lib/jammer_imp_f_impl.h" line="57" column="1" bodyfile="/home/ulisesfco/tesis/uav-dd/gr-transmitter/lib/jammer_imp_f_impl.h" bodystart="57" bodyend="57"/>
+        <references refid="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a92cf9af4504f81e4191f828bbbb80743" compoundref="jammer__imp__f__impl_8h" startline="55" endline="55">frequency</references>
+        <references refid="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a98fcd7214378c82e95c75968aacd49cd">set_amplitude</references>
+        <references refid="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a24cecea2520fc6fd028421532f71ad98">set_frequency</references>
+        <references refid="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a46c69b823dbb0b3c8cf7faa86ccc9962">set_frequency_msg</references>
+        <references refid="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a92d2fa36abd3fd0a94dfe954cadc34ce">set_phase</references>
+        <references refid="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a71868a793844b1a2a2eb1fefb19f45e5">set_sampling_freq</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a71868a793844b1a2a2eb1fefb19f45e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::transmitter::jammer_imp_f_impl::set_sampling_freq</definition>
+        <argsstring>(double sample_freq)</argsstring>
+        <name>set_sampling_freq</name>
+        <reimplements refid="classgr_1_1transmitter_1_1jammer__imp__f_1a2de2fc7767b1f5dde4a147480117e9a2">set_sampling_freq</reimplements>
+        <param>
+          <type>double</type>
+          <declname>sample_freq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ulisesfco/tesis/uav-dd/gr-transmitter/lib/jammer_imp_f_impl.h" line="59" column="1"/>
+        <referencedby refid="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a52e945fd267800e6e460cc59b5cf087a" compoundref="jammer__imp__f__impl_8h" startline="57" endline="57">phase</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a46c69b823dbb0b3c8cf7faa86ccc9962" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::transmitter::jammer_imp_f_impl::set_frequency_msg</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>set_frequency_msg</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ulisesfco/tesis/uav-dd/gr-transmitter/lib/jammer_imp_f_impl.h" line="60" column="1"/>
+        <referencedby refid="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a52e945fd267800e6e460cc59b5cf087a" compoundref="jammer__imp__f__impl_8h" startline="57" endline="57">phase</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a24cecea2520fc6fd028421532f71ad98" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::transmitter::jammer_imp_f_impl::set_frequency</definition>
+        <argsstring>(double frequency)</argsstring>
+        <name>set_frequency</name>
+        <reimplements refid="classgr_1_1transmitter_1_1jammer__imp__f_1a97eda36225c5e0744e1c88c14479d759">set_frequency</reimplements>
+        <param>
+          <type>double</type>
+          <declname>frequency</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ulisesfco/tesis/uav-dd/gr-transmitter/lib/jammer_imp_f_impl.h" line="61" column="1"/>
+        <referencedby refid="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a52e945fd267800e6e460cc59b5cf087a" compoundref="jammer__imp__f__impl_8h" startline="57" endline="57">phase</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a98fcd7214378c82e95c75968aacd49cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::transmitter::jammer_imp_f_impl::set_amplitude</definition>
+        <argsstring>(double ampl)</argsstring>
+        <name>set_amplitude</name>
+        <reimplements refid="classgr_1_1transmitter_1_1jammer__imp__f_1a9fde5e9bccbf703744b0d42e9f2f496f">set_amplitude</reimplements>
+        <param>
+          <type>double</type>
+          <declname>ampl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ulisesfco/tesis/uav-dd/gr-transmitter/lib/jammer_imp_f_impl.h" line="62" column="1"/>
+        <referencedby refid="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a52e945fd267800e6e460cc59b5cf087a" compoundref="jammer__imp__f__impl_8h" startline="57" endline="57">phase</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a92d2fa36abd3fd0a94dfe954cadc34ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::transmitter::jammer_imp_f_impl::set_phase</definition>
+        <argsstring>(float phase)</argsstring>
+        <name>set_phase</name>
+        <reimplements refid="classgr_1_1transmitter_1_1jammer__imp__f_1a41b6aab105aebba1de479bab5504b35a">set_phase</reimplements>
+        <param>
+          <type>float</type>
+          <declname>phase</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ulisesfco/tesis/uav-dd/gr-transmitter/lib/jammer_imp_f_impl.h" line="63" column="1"/>
+        <referencedby refid="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a52e945fd267800e6e460cc59b5cf087a" compoundref="jammer__imp__f__impl_8h" startline="57" endline="57">phase</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="7">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="5">
+        <label>gr::transmitter::jammer_imp_f_impl</label>
+        <link refid="classgr_1_1transmitter_1_1jammer__imp__f__impl"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>gr::transmitter::jammer_imp_f</label>
+        <link refid="classgr_1_1transmitter_1_1jammer__imp__f"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="10">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="8">
+        <label>gr::transmitter::jammer_imp_f_impl</label>
+        <link refid="classgr_1_1transmitter_1_1jammer__imp__f__impl"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>gr::transmitter::jammer_imp_f</label>
+        <link refid="classgr_1_1transmitter_1_1jammer__imp__f"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/ulisesfco/tesis/uav-dd/gr-transmitter/lib/jammer_imp_f_impl.h" line="32" column="1" bodyfile="/home/ulisesfco/tesis/uav-dd/gr-transmitter/lib/jammer_imp_f_impl.h" bodystart="31" bodyend="65"/>
+    <listofallmembers>
+      <member refid="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a8d71ceb3b23ab4c48d9530061f34d81e" prot="public" virt="virtual"><scope>gr::transmitter::jammer_imp_f_impl</scope><name>amplitude</name></member>
+      <member refid="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a117afadf0c32f2e0b7d4c8f368415ea9" prot="private" virt="non-virtual"><scope>gr::transmitter::jammer_imp_f_impl</scope><name>d_ampl</name></member>
+      <member refid="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a5723534a405d5bff61eae6a4e5c025fd" prot="private" virt="non-virtual"><scope>gr::transmitter::jammer_imp_f_impl</scope><name>d_frequency</name></member>
+      <member refid="classgr_1_1transmitter_1_1jammer__imp__f__impl_1ab9961e882a2ac744e3892739a63a28da" prot="private" virt="non-virtual"><scope>gr::transmitter::jammer_imp_f_impl</scope><name>d_nco</name></member>
+      <member refid="classgr_1_1transmitter_1_1jammer__imp__f__impl_1ac5e1bfcf6547c7e8a4b05b7c40b55a22" prot="private" virt="non-virtual"><scope>gr::transmitter::jammer_imp_f_impl</scope><name>d_sample_freq</name></member>
+      <member refid="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a92cf9af4504f81e4191f828bbbb80743" prot="public" virt="virtual"><scope>gr::transmitter::jammer_imp_f_impl</scope><name>frequency</name></member>
+      <member refid="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a50188d008f2074d0926f0284709e6d36" prot="public" virt="non-virtual"><scope>gr::transmitter::jammer_imp_f_impl</scope><name>jammer_imp_f_impl</name></member>
+      <member refid="classgr_1_1transmitter_1_1jammer__imp__f_1afc21edddfbe51ceb0eea199f862c8562" prot="public" virt="non-virtual"><scope>gr::transmitter::jammer_imp_f_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a52e945fd267800e6e460cc59b5cf087a" prot="public" virt="virtual"><scope>gr::transmitter::jammer_imp_f_impl</scope><name>phase</name></member>
+      <member refid="classgr_1_1transmitter_1_1jammer__imp__f__impl_1ada3e00c5069dccb5a72bd92f97219f46" prot="public" virt="virtual"><scope>gr::transmitter::jammer_imp_f_impl</scope><name>sampling_freq</name></member>
+      <member refid="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a98fcd7214378c82e95c75968aacd49cd" prot="public" virt="virtual"><scope>gr::transmitter::jammer_imp_f_impl</scope><name>set_amplitude</name></member>
+      <member refid="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a24cecea2520fc6fd028421532f71ad98" prot="public" virt="virtual"><scope>gr::transmitter::jammer_imp_f_impl</scope><name>set_frequency</name></member>
+      <member refid="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a46c69b823dbb0b3c8cf7faa86ccc9962" prot="public" virt="non-virtual"><scope>gr::transmitter::jammer_imp_f_impl</scope><name>set_frequency_msg</name></member>
+      <member refid="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a92d2fa36abd3fd0a94dfe954cadc34ce" prot="public" virt="virtual"><scope>gr::transmitter::jammer_imp_f_impl</scope><name>set_phase</name></member>
+      <member refid="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a71868a793844b1a2a2eb1fefb19f45e5" prot="public" virt="virtual"><scope>gr::transmitter::jammer_imp_f_impl</scope><name>set_sampling_freq</name></member>
+      <member refid="classgr_1_1transmitter_1_1jammer__imp__f_1aaf22eeae7c7267df5d1bf0d56b5f69d5" prot="public" virt="non-virtual"><scope>gr::transmitter::jammer_imp_f_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a03b959c78e3d50dccc70400b4a1c53a9" prot="public" virt="non-virtual"><scope>gr::transmitter::jammer_imp_f_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a9bec3933f76ca7dd2381e54f5f20dd5e" prot="public" virt="non-virtual"><scope>gr::transmitter::jammer_imp_f_impl</scope><name>~jammer_imp_f_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

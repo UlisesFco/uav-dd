@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.13">
+  <compound refid="classgr_1_1transmitter_1_1jammer__imp__f" kind="class"><name>gr::transmitter::jammer_imp_f</name>
+    <member refid="classgr_1_1transmitter_1_1jammer__imp__f_1aaf22eeae7c7267df5d1bf0d56b5f69d5" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1transmitter_1_1jammer__imp__f_1afc21edddfbe51ceb0eea199f862c8562" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1transmitter_1_1jammer__imp__f_1ab2f824812349809ccf6fe1f9fba02925" kind="function"><name>sampling_freq</name></member>
+    <member refid="classgr_1_1transmitter_1_1jammer__imp__f_1ac78aaf59c36d0bdf89224153a1344806" kind="function"><name>frequency</name></member>
+    <member refid="classgr_1_1transmitter_1_1jammer__imp__f_1aaa9b0068a4b4b511c309fe4b66d4bd61" kind="function"><name>amplitude</name></member>
+    <member refid="classgr_1_1transmitter_1_1jammer__imp__f_1adce56b79bd2ae661d3242041944d9b67" kind="function"><name>phase</name></member>
+    <member refid="classgr_1_1transmitter_1_1jammer__imp__f_1a2de2fc7767b1f5dde4a147480117e9a2" kind="function"><name>set_sampling_freq</name></member>
+    <member refid="classgr_1_1transmitter_1_1jammer__imp__f_1a97eda36225c5e0744e1c88c14479d759" kind="function"><name>set_frequency</name></member>
+    <member refid="classgr_1_1transmitter_1_1jammer__imp__f_1a9fde5e9bccbf703744b0d42e9f2f496f" kind="function"><name>set_amplitude</name></member>
+    <member refid="classgr_1_1transmitter_1_1jammer__imp__f_1a41b6aab105aebba1de479bab5504b35a" kind="function"><name>set_phase</name></member>
+  </compound>
+  <compound refid="classgr_1_1transmitter_1_1jammer__imp__f__impl" kind="class"><name>gr::transmitter::jammer_imp_f_impl</name>
+    <member refid="classgr_1_1transmitter_1_1jammer__imp__f__impl_1ac5e1bfcf6547c7e8a4b05b7c40b55a22" kind="variable"><name>d_sample_freq</name></member>
+    <member refid="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a5723534a405d5bff61eae6a4e5c025fd" kind="variable"><name>d_frequency</name></member>
+    <member refid="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a117afadf0c32f2e0b7d4c8f368415ea9" kind="variable"><name>d_ampl</name></member>
+    <member refid="classgr_1_1transmitter_1_1jammer__imp__f__impl_1ab9961e882a2ac744e3892739a63a28da" kind="variable"><name>d_nco</name></member>
+    <member refid="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a50188d008f2074d0926f0284709e6d36" kind="function"><name>jammer_imp_f_impl</name></member>
+    <member refid="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a9bec3933f76ca7dd2381e54f5f20dd5e" kind="function"><name>~jammer_imp_f_impl</name></member>
+    <member refid="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a03b959c78e3d50dccc70400b4a1c53a9" kind="function"><name>work</name></member>
+    <member refid="classgr_1_1transmitter_1_1jammer__imp__f__impl_1ada3e00c5069dccb5a72bd92f97219f46" kind="function"><name>sampling_freq</name></member>
+    <member refid="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a92cf9af4504f81e4191f828bbbb80743" kind="function"><name>frequency</name></member>
+    <member refid="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a8d71ceb3b23ab4c48d9530061f34d81e" kind="function"><name>amplitude</name></member>
+    <member refid="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a52e945fd267800e6e460cc59b5cf087a" kind="function"><name>phase</name></member>
+    <member refid="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a71868a793844b1a2a2eb1fefb19f45e5" kind="function"><name>set_sampling_freq</name></member>
+    <member refid="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a46c69b823dbb0b3c8cf7faa86ccc9962" kind="function"><name>set_frequency_msg</name></member>
+    <member refid="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a24cecea2520fc6fd028421532f71ad98" kind="function"><name>set_frequency</name></member>
+    <member refid="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a98fcd7214378c82e95c75968aacd49cd" kind="function"><name>set_amplitude</name></member>
+    <member refid="classgr_1_1transmitter_1_1jammer__imp__f__impl_1a92d2fa36abd3fd0a94dfe954cadc34ce" kind="function"><name>set_phase</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1transmitter" kind="namespace"><name>gr::transmitter</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1a358fa26d5ea8c67bcf889c947f993c23" kind="define"><name>TRANSMITTER_API</name></member>
+  </compound>
+  <compound refid="group__defs_8dox" kind="file"><name>group_defs.dox</name>
+  </compound>
+  <compound refid="jammer__imp__f_8h" kind="file"><name>jammer_imp_f.h</name>
+  </compound>
+  <compound refid="jammer__imp__f__impl_8h" kind="file"><name>jammer_imp_f_impl.h</name>
+  </compound>
+  <compound refid="main__page_8dox" kind="file"><name>main_page.dox</name>
+  </compound>
+  <compound refid="group__block" kind="group"><name>block</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir"><name>lib</name>
+  </compound>
+  <compound refid="dir_643e79c0bf5ea326f5f46b1ce08414fa" kind="dir"><name>transmitter</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

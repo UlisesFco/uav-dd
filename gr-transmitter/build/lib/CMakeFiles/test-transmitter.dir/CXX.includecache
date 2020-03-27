@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ulisesfco/tesis/uav-dd/gr-transmitter/lib/qa_transmitter.cc
+qa_transmitter.h
+/home/ulisesfco/tesis/uav-dd/gr-transmitter/lib/qa_transmitter.h
+
+/home/ulisesfco/tesis/uav-dd/gr-transmitter/lib/qa_transmitter.h
+gnuradio/attributes.h
+-
+cppunit/TestSuite.h
+-
+
+/home/ulisesfco/tesis/uav-dd/gr-transmitter/lib/test_transmitter.cc
+config.h
+/home/ulisesfco/tesis/uav-dd/gr-transmitter/lib/config.h
+cppunit/TextTestRunner.h
+-
+cppunit/XmlOutputter.h
+-
+gnuradio/unittests.h
+-
+qa_transmitter.h
+/home/ulisesfco/tesis/uav-dd/gr-transmitter/lib/qa_transmitter.h
+iostream
+-
+fstream
+-
+

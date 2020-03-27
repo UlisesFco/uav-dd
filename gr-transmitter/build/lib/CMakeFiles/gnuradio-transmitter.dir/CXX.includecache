@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/transmitter/api.h
+gnuradio/attributes.h
+-
+
+../include/transmitter/jammer_imp_f.h
+transmitter/api.h
+-
+gnuradio/sync_block.h
+-
+
+/home/ulisesfco/tesis/uav-dd/gr-transmitter/lib/jammer_imp_f_impl.cc
+config.h
+/home/ulisesfco/tesis/uav-dd/gr-transmitter/lib/config.h
+gnuradio/math.h
+-
+algorithm
+-
+stdexcept
+-
+gnuradio/io_signature.h
+-
+jammer_imp_f_impl.h
+/home/ulisesfco/tesis/uav-dd/gr-transmitter/lib/jammer_imp_f_impl.h
+
+/home/ulisesfco/tesis/uav-dd/gr-transmitter/lib/jammer_imp_f_impl.h
+transmitter/jammer_imp_f.h
+-
+gnuradio/fxpt_nco.h
+-
+gnuradio/sync_block.h
+-
+

@@ -1,0 +1,7 @@
+/*!
+ * \defgroup block GNU Radio TRANSMITTER C++ Signal Processing Blocks
+ * \brief All C++ blocks that can be used from the TRANSMITTER GNU Radio
+ *        module are listed here or in the subcategories below.
+ *
+ */
+

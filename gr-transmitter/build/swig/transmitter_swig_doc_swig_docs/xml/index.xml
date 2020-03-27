@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.13">
+  <compound refid="classgr_1_1transmitter_1_1jammer__imp__f" kind="class"><name>gr::transmitter::jammer_imp_f</name>
+    <member refid="classgr_1_1transmitter_1_1jammer__imp__f_1aaf22eeae7c7267df5d1bf0d56b5f69d5" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1transmitter_1_1jammer__imp__f_1afc21edddfbe51ceb0eea199f862c8562" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1transmitter_1_1jammer__imp__f_1ab2f824812349809ccf6fe1f9fba02925" kind="function"><name>sampling_freq</name></member>
+    <member refid="classgr_1_1transmitter_1_1jammer__imp__f_1ac78aaf59c36d0bdf89224153a1344806" kind="function"><name>frequency</name></member>
+    <member refid="classgr_1_1transmitter_1_1jammer__imp__f_1aaa9b0068a4b4b511c309fe4b66d4bd61" kind="function"><name>amplitude</name></member>
+    <member refid="classgr_1_1transmitter_1_1jammer__imp__f_1adce56b79bd2ae661d3242041944d9b67" kind="function"><name>phase</name></member>
+    <member refid="classgr_1_1transmitter_1_1jammer__imp__f_1a2de2fc7767b1f5dde4a147480117e9a2" kind="function"><name>set_sampling_freq</name></member>
+    <member refid="classgr_1_1transmitter_1_1jammer__imp__f_1a97eda36225c5e0744e1c88c14479d759" kind="function"><name>set_frequency</name></member>
+    <member refid="classgr_1_1transmitter_1_1jammer__imp__f_1a9fde5e9bccbf703744b0d42e9f2f496f" kind="function"><name>set_amplitude</name></member>
+    <member refid="classgr_1_1transmitter_1_1jammer__imp__f_1a41b6aab105aebba1de479bab5504b35a" kind="function"><name>set_phase</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1transmitter" kind="namespace"><name>gr::transmitter</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1a358fa26d5ea8c67bcf889c947f993c23" kind="define"><name>TRANSMITTER_API</name></member>
+  </compound>
+  <compound refid="jammer__imp__f_8h" kind="file"><name>jammer_imp_f.h</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_643e79c0bf5ea326f5f46b1ce08414fa" kind="dir"><name>transmitter</name>
+  </compound>
+</doxygenindex>
