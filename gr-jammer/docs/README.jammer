@@ -1,3 +1,8 @@
+===============================================================================
+Deprecated -> using gr-transmitter instead
+===============================================================================
+
+
 This is the jammer-write-a-block package meant as a guide to building
 out-of-tree packages. To use the jammer blocks, the Python namespaces
 is in 'jammer', which is imported as:
